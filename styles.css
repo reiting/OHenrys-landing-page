@@ -1,0 +1,60 @@
+nav {
+  background-image: url("images/O'Henry's-Hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  height: 400px;
+  color: white;
+}
+nav div > a {
+  color: white;
+}
+nav .navpic {
+  float: right;
+}
+nav .navpic #firstText {
+  text-align: center;
+  margin-top: 20px;
+}
+nav .navpic .secondText {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+nav .navpic #triangle {
+  display: block;
+  margin: auto;
+  height: 10px;
+  margin-top: 70px;
+}
+nav .navpic #logo {
+  display: block;
+  margin: auto;
+}
+nav .navpic .nav-item {
+  margin: 20px;
+}
+nav .navpic #links {
+  list-style: none;
+  float: left;
+}
+nav .navpic #links li {
+  display: inline;
+}
+nav .navpic .cart {
+  float: right;
+}
+.secondSection {
+  text-align: center;
+  color: saddlebrown;
+  background-color: gray;
+  background-size: cover;
+  width: 100%;
+}
+.secondSection #divider {
+  height: 20px;
+}
+.secondSection #package {
+  height: 200px;
+  float: right;
+}
