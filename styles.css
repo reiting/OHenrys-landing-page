@@ -45,9 +45,8 @@ nav .navpic .cart {
   float: right;
 }
 .secondSection {
-  text-align: center;
   color: saddlebrown;
-  background-color: gray;
+  background-color: lightgray;
   background-size: cover;
   width: 100%;
 }
@@ -55,6 +54,105 @@ nav .navpic .cart {
   height: 20px;
 }
 .secondSection #package {
+  height: 250px;
+  position: absolute;
+  top: 450px;
+  left: 700px;
+  z-index: 1;
+}
+.secondSection #mug {
   height: 200px;
-  float: right;
+  position: absolute;
+  top: 515px;
+  left: 680px;
+  z-index: 3;
+}
+.secondSection #header {
+  float: left;
+}
+.secondSection #circle {
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: saddlebrown;
+}
+.secondSection .clearCircle {
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
+}
+.secondSection .circleList li {
+  list-style: none;
+  display: inline;
+}
+.secondSection #add {
+  background-color: saddlebrown;
+  color: white;
+}
+.secondSection #view {
+  background-color: black;
+  color: white;
+}
+.secondSection #boxes {
+  width: 575px;
+  height: 300px;
+}
+.secondSection #outside {
+  width: 575px;
+  height: 300px;
+}
+.secondSection .imageWrap {
+  position: relative;
+}
+.secondSection #retail {
+  position: absolute;
+  left: 25%;
+}
+.secondSection #locations {
+  position: absolute;
+  left: 75%;
+}
+.thirdSection {
+  color: saddlebrown;
+}
+.thirdSection .whiteTriangle {
+  height: 300px;
+  width: 300px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.thirdSection #learn {
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: black;
+  color: white;
+}
+.thirdSection #year {
+  text-align: center;
+}
+.fourthSection .bottomPics {
+  height: 300px;
+  width: 230px;
+}
+.lastLogo {
+  height: 200px;
+  width: 200px;
+}
+.firstList {
+  margin-left: 300px;
+  list-style-type: none;
+}
+.secondList {
+  margin-left: 500px;
+  list-style-type: none;
+}
+.bottomBTN {
+  margin-left: 900px;
+  background-color: saddlebrown;
+  color: white;
 }
