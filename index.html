@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="http://lesscss.googlecode.com/files/less-1.0.21.min.js"></script>
+    <!--<script src="http://lesscss.googlecode.com/files/less-1.0.21.min.js"></script>-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
@@ -18,20 +18,23 @@
         <div class="nav navbar-nav">
             <div class="container navpic">
                 <ul id="links">
-                    <li><a href="https://www.facebook.com/pages/OHenrys-Coffees/152837238069993?fref=ts"><img style="height: 20px" src="images/header-fb-icon.png"></li>
-                    <li><a href="https://twitter.com/ohenrys?lang=en"><img style="height: 20px" src="images/header-twitter-icon.png"></li>
-                    <li><a href="https://www.instagram.com/ohenrys/"><img style="height: 20px" src="images/header-insta-icon.png"></li>
+                    <li>
+                        <a href="https://www.facebook.com/pages/OHenrys-Coffees/152837238069993?fref=ts"><img style="height: 20px" src="images/header-fb-icon.png"></li>
+                    <li>
+                        <a href="https://twitter.com/ohenrys?lang=en"><img style="height: 20px" src="images/header-twitter-icon.png"></li>
+                    <li>
+                        <a href="https://www.instagram.com/ohenrys/"><img style="height: 20px" src="images/header-insta-icon.png"></li>
                 </ul>
                 <a class="nav-item nav-link active" href="#">ABOUT</a>
                 <a class="nav-item nav-link" href="#">BUY ONLINE</a>
-                    <img style = "height: 50px;" src="images/oh-mark.png">
+                <img style="height: 50px;" src="images/oh-mark.png">
                 <a class="nav-item nav-link" href="#">FIND US</a>
                 <a class="nav-item nav-link" href="#">WHOLESALE</a>
                 <p class="cart">YOUR CART</p>
-                <img class="cart" style ="height: 20px;" src="images/header-cart-icon.png">
-            <img style="height: 100px" id="logo" src="images/hero-logo.png">
-            <p class="secondText">FINE COFFEE HOUSE<br>WHOLESALER & ROASTERY</p>
-            <img id="triangle" src="images/down-triangle.png">
+                <img class="cart" style="height: 20px;" src="images/header-cart-icon.png">
+                <img style="height: 100px" id="logo" src="images/hero-logo.png">
+                <p class="secondText">FINE COFFEE HOUSE<br>WHOLESALER & ROASTERY</p>
+                <img id="triangle" src="images/down-triangle.png">
             </div>
     </nav>
 
@@ -45,55 +48,87 @@
         <p>Roast</p>
         <div id="circle"></div>
         <ul class="circleList">
-            <li><div class="clearCircle"></div></li>
-            <li><div class="clearCircle"></div></li>
-            <li><div class="clearCircle"></div></li>
-            <li><div class="clearCircle"></div></li>
+            <li>
+                <div class="clearCircle"></div>
+            </li>
+            <li>
+                <div class="clearCircle"></div>
+            </li>
+            <li>
+                <div class="clearCircle"></div>
+            </li>
+            <li>
+                <div class="clearCircle"></div>
+            </li>
         </ul>
         <p>Grind Options</p>
         <button id="add">Add to Cart</button>
-        <button id= "view">View Shop</button><br>
+        <button id="view">View Shop</button><br>
         <div class="imageWrap"></div>
         <img id="boxes" src="images/boxes.png"> <img id="outside" src="images/ohc.png">
         <button id="retail">RETAIL STORES</button>
         <button id="locations">LOCATIONS</button>
 
-    <div class="thirdSection container">
-        <img class="whiteTriangle" src="images/white-triangle-outline.png">
-        <p id="year">SINCE 1993</p> <br>
-        <p>Dr. Henry Bright, a retired orthodontist, opened the first O'Henry's in 1993 in Homewood, Alabama, a 1920s suburb of Birmingham. To this day, O'Henry's buys and roasts their own beans at a sister company. O'Henry's Coffe Roasting Company, also in Homewood. These beans represent the top 1% the world has to offer. </p>
-        <button id="learn">LEARN MORE</button>
-    </div>
+        <div class="thirdSection container">
+            <img class="whiteTriangle" src="images/white-triangle-outline.png">
+            <p id="year">SINCE 1993</p> <br>
+            <p>Dr. Henry Bright, a retired orthodontist, opened the first O'Henry's in 1993 in Homewood, Alabama, a 1920s suburb
+                of Birmingham. To this day, O'Henry's buys and roasts their own beans at a sister company. O'Henry's Coffe
+                Roasting Company, also in Homewood. These beans represent the top 1% the world has to offer. </p>
+            <button id="learn">LEARN MORE</button>
+        </div>
 
-    <div class="fourthSection container">
-        <img class ="bottomPics" src="images/muffin.png">
-        <img class ="bottomPics" src="images/scone.png">
-        <img class ="bottomPics" src="images/coffee_cup.png">
-        <img class ="bottomPics" src="images/bottles.png">
-    </div>
+        <div class="fourthSection">
+            <div class="row">
+                <div class="col-xs-3 muffin"></div>
+                <div class="col-xs-3 scone"></div>
+                <div class="col-xs-3 coffeecup"></div>
+                <div class="col-xs-3 bottles"></div>
+            </div>
+        </div>
+            
+            
+        </div>
 
-    <div class="fifthSection container"></div>
-        <img class="lastLogo" src="images/logo-old-white.png">
-        <ul class="firstList">
-            <li>ABOUT</li>
-            <li>FIND US</li>
-            <LI>BUY ONLINE</LI>
-        </ul>
-        <ul class="secondList">
-            <li>WHOLESALE</li>
-            <li>PRESS</li>
-            <li>CATERING</li>
-        </ul>
-        <button class="bottomBTN">CONTACT</button>
-         
+        <div class="fifthSection container-fluid">
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-2" lastLogo><img class=lastLogo src="images/logo-old-white.png"></div>
+                <div class="col-xs-2">
+                    <ul class="firstList">
+                        <li>ABOUT</li><br>
+                        <li>FIND US</li><br>
+                        <LI>BUY ONLINE</LI><br>
+                    </ul>
+                </div>
+                <div class="col-xs-2">
+                    <ul class="secondList">
+                        <li>WHOLESALE</li><br>
+                        <li>PRESS</li><br>
+                        <li>CATERING</li><br>
+                    </ul>
+                    </div>
+                        <div class="col-xs-1"><button class="bottomBTN">CONTACT</button>
+                        <div class="row">
+                            <div class="col-xs-1"><a href="https://www.facebook.com/pages/OHenrys-Coffees/152837238069993?fref=ts"><img style="height: 20px" src="images/header-fb-icon.png"></li>
+</div>
+<div class="col-xs-1"><a href="https://twitter.com/ohenrys?lang=en"><img style="height: 20px" src="images/header-twitter-icon.png"></div>
+    <div class="col-xs-1"><a href="https://www.instagram.com/ohenrys/"><img style="height: 20px" src="images/header-insta-icon.png"></div>
+                        </div>
+                        </div>
+                        <div class="col-xs-1"></div>
+                
+                </div>
+                </div>
 
 
 
 
 
-    <!--//links to jquery and bootstrap-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+                <!--//links to jquery and bootstrap-->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
